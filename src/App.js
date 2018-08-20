@@ -1,10 +1,14 @@
-import React from 'react';
-import Button from '@material-ui/core/Button';
+import React, { Component } from 'react';
+import './styles/css/styles.css';
 
-const App = () => (
-  <Button variant="contained" color="primary">
-    Hello World
-  </Button>
-);
+class App extends Component {
+  render() {
+    return (
+      <div>
+        <p> Henlo (OvO") </p>
+      </div>
+    );
+  }
+}
 
 export default App;
