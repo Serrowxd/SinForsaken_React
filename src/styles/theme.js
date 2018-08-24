@@ -1,6 +1,13 @@
 // Styled Components
 import styled, { css } from 'styled-components';
 
+// Color Const
+
+const colors = {
+  pink: '#ff0266',
+  white: '#fafafa',
+};
+
 // Layout
 export const Container = styled.div`
   display: flex;
@@ -26,7 +33,8 @@ export const Row = styled.div`
   ${props =>
     props.navstyle &&
     css`
-      background-color: lightgray;
+      background-color: ${colors.pink};
+      color: ${colors.white};
       border-radius: 30px;
     `};
 
