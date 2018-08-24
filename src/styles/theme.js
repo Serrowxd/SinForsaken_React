@@ -36,11 +36,11 @@ export const Row = styled.div`
       background-color: ${colors.pink};
       color: ${colors.white};
       border-radius: 30px;
-    `};
 
-  p {
-    font-size: 1.5rem;
-  }
+      p {
+        font-size: 1.5rem;
+      }
+    `};
 `;
 
 export const Column = styled.div`
@@ -54,7 +54,6 @@ export const Column = styled.div`
     `}
   /* justify-content: center; */
   width: ${props => props.width};
-  text-align: center;
 
   img {
     height: 5rem;
