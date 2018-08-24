@@ -1,6 +1,8 @@
 import React, { Component } from 'react';
 import { Container, Row, Column } from './styles/theme';
 
+import img from './assets/banner.jpg';
+
 import './styles/css/styles.css';
 
 class App extends Component {
@@ -11,9 +13,9 @@ class App extends Component {
           <Column>
             <h1 className="bigsin"> SinForsaken </h1>
           </Column>
-          <Column>
-            <p> Henlo (OvO") </p>
-            <Row justify-content="space-evenly">
+          <Column width="50%" justify="center" topmargin>
+            <img src={img} class="img" />
+            <Row justify="space-evenly" topmargin navstyle>
               <p> Henlo (OvO") </p>
               <p> Henlo (OvO") </p>
               <p> Henlo (OvO") </p>

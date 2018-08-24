@@ -1,5 +1,5 @@
 // Styled Components
-import styled from 'styled-components';
+import styled, { css } from 'styled-components';
 
 // Layout
 export const Container = styled.div`
@@ -16,11 +16,42 @@ export const Row = styled.div`
   flex-direction: row;
   width: 100%;
   height: auto;
+
+  ${props =>
+    props.topmargin &&
+    css`
+      margin-top: 3rem;
+    `};
+
+  ${props =>
+    props.navstyle &&
+    css`
+      background-color: lightgray;
+      border-radius: 30px;
+    `};
+
+  p {
+    font-size: 1.5rem;
+  }
 `;
 
 export const Column = styled.div`
   display: flex;
-  justify-content: ${props => props.justify};
   flex-direction: column;
-  height: auto;
+
+  ${props =>
+    props.topmargin &&
+    css`
+      margin-top: 3rem;
+    `}
+  /* justify-content: center; */
+  width: ${props => props.width};
+  text-align: center;
+
+  img {
+    height: 5rem;
+    width: 90%;
+    border-radius: 20px;
+    align-self: center;
+  }
 `;
