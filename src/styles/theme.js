@@ -8,6 +8,8 @@ const colors = {
   white: '#fafafa',
 };
 
+const { pink, white } = colors; // destructoring
+
 // Layout
 export const Container = styled.div`
   display: flex;
