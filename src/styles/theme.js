@@ -1,12 +1,26 @@
-import { createMuiTheme } from '@material-ui/core/styles';
-import pink from '@material-ui/core/colors/pink';
-import red from '@material-ui/core/colors/red';
+// Styled Components
+import styled from 'styled-components';
 
-export const theme = createMuiTheme({
-  palette: {
-    primary: pink,
-    secondary: red,
-  },
-});
+// Layout
+export const Container = styled.div`
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  max-width: 1920px;
+  min-width: 800px;
+`;
 
-// This isn't quite doing what I expected. Will return to it later.
+export const Row = styled.div`
+  display: flex;
+  justify-content: ${props => props.justify};
+  flex-direction: row;
+  width: 100%;
+  height: auto;
+`;
+
+export const Column = styled.div`
+  display: flex;
+  justify-content: ${props => props.justify};
+  flex-direction: column;
+  height: auto;
+`;
