@@ -17,6 +17,18 @@ export const Container = styled.div`
   min-width: 800px;
 `;
 
+export const Jumbo = styled.div`
+  display: flex;
+  width: 90%;
+  justify-content: center;
+
+  img {
+    width: 100%;
+    height: auto;
+    border: 15px solid gray;
+  }
+`;
+
 export const Row = styled.div`
   display: flex;
   justify-content: ${props => props.justify};
@@ -56,7 +68,7 @@ export const Column = styled.div`
   width: ${props => props.width};
 
   img {
-    height: 5rem;
+    height: 6rem;
     width: 90%;
     border-radius: 20px;
     align-self: center;
