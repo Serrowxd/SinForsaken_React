@@ -10,11 +10,11 @@ class App extends Component {
   render() {
     return (
       <Container>
-        <Row justify="space-around">
-          <Column>
+        <Row justify="space-around" height="20rem">
+          <Column justify="center">
             <h1 className="bigsin"> SinForsaken </h1>
           </Column>
-          <Column width="40%" justify="center" topmargin>
+          <Column width="40%" topmargin>
             <img src={img} class="img" />
             <Row justify="space-evenly" topmargin navstyle>
               <p> Henlo (OvO") </p>

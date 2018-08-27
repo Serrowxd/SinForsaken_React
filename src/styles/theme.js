@@ -36,7 +36,7 @@ export const Row = styled.div`
   justify-content: ${props => props.justify};
   flex-direction: row;
   width: 100%;
-  height: auto;
+  height: ${props => props.height};
 
   ${props =>
     props.topmargin &&
@@ -60,6 +60,7 @@ export const Row = styled.div`
 export const Column = styled.div`
   display: flex;
   flex-direction: column;
+  justify-content: ${props => props.justify};
 
   ${props =>
     props.topmargin &&
