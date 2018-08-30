@@ -81,6 +81,27 @@ export const Column = styled.div`
         width: 20rem;
       }
     `};
+
+  ${props =>
+    props.joinup &&
+    css`
+      width: 50%;
+      align-self: center;
+      align-items: center;
+      text-align: center;
+
+      input {
+        margin-top: 1rem;
+        width: 40%;
+        padding: 1rem;
+      }
+
+      button {
+        margin-top: 1rem;
+        padding: 1rem;
+        font-size: 1rem;
+      }
+    `};
 `;
 
 export const Row = styled.div`
@@ -145,5 +166,12 @@ export const Body = styled.div`
     props.light &&
     css`
       background-color: #303030;
+    `};
+
+  ${props =>
+    props.foot &&
+    css`
+      padding-top: 0;
+      padding-bottom: 0;
     `};
 `;

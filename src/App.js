@@ -7,7 +7,7 @@ import {
   Jumbo,
   Body,
 } from './styles/theme';
-import { Navigation } from './reducer';
+import { Navigation, Footer } from './reducer';
 
 import img from './assets/sincakenb.png';
 import serrow from './assets/fatcat.png';
@@ -16,6 +16,9 @@ import serrow2 from './assets/serrowattak.png';
 import './styles/css/styles.css';
 
 class App extends Component {
+  ohMy() {
+    alert("Oh Senpai, w-we shouldn't ;w;");
+  }
   render() {
     return (
       <Fragment>
@@ -72,6 +75,21 @@ class App extends Component {
               </p>
             </Column>
           </Row>
+        </Body>
+        <Body light>
+          <Row padded>
+            <Column joinup>
+              <h1> QwQ </h1>
+              <input type="text" name="text" placeholder="Sign Up XwX" />
+              <input type="text" name="text" placeholder="Sign Up OwO" />
+              <input type="text" name="text" placeholder="Sign Up @w@" />
+              <input type="text" name="text" placeholder="Sign Up YwY" />
+              <button onClick={this.ohMy}> C-Click me Senpai UwU </button>
+            </Column>
+          </Row>
+        </Body>
+        <Body foot>
+          <Footer />
         </Body>
       </Fragment>
     );

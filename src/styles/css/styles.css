@@ -24,7 +24,15 @@ body {
   margin-top: -7rem;
 }
 .sinbkg {
-  background-image: url(../../assets/sinforsaken40opc.png);
+  background-image: url(../../assets/sinforsaken25no.png);
   background-size: 100%;
   background-repeat: no-repeat;
+}
+.footerSerrow {
+  text-decoration: none;
+  color: white;
+  transition: color 0.5s ease;
+}
+.footerSerrow:hover {
+  color: #18d7dd;
 }
