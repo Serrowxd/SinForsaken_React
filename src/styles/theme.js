@@ -69,12 +69,12 @@ export const Column = styled.div`
 
       img {
         height: auto;
-        width: 25rem;
+        width: 20rem;
       }
 
       .img2 {
         height: auto;
-        width: 15rem;
+        width: 20rem;
       }
     `};
 `;
@@ -104,8 +104,14 @@ export const Row = styled.div`
       width: 100%;
       justify-content: space-evenly;
 
+      a {
+        text-decoration: none;
+      }
+
       h2 {
         transition: color 0.3s ease;
+        color: white;
+        text-decoration: none;
         cursor: pointer;
 
         &:hover {

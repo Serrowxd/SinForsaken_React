@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React, { Component, Fragment } from 'react';
 import {
   Container,
   LandingContainer,
@@ -10,15 +10,15 @@ import {
 import { Navigation } from './reducer';
 
 import img from './assets/sincakenb.png';
-import serrow from './assets/serrowattak.png';
-import serrow2 from './assets/serrowpng.png';
+import serrow from './assets/fatcat.png';
+import serrow2 from './assets/serrowattak.png';
 
 import './styles/css/styles.css';
 
 class App extends Component {
   render() {
     return (
-      <Container>
+      <Fragment>
         <Navigation />
         <LandingContainer>
           <Jumbo className="sinbkg">
@@ -73,7 +73,7 @@ class App extends Component {
             </Column>
           </Row>
         </Body>
-      </Container>
+      </Fragment>
     );
   }
 }

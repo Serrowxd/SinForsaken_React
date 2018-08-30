@@ -1,3 +1,5 @@
 import Navigation from './components/nav';
 
-export { Navigation };
+import Roster from './routes/roster';
+
+export { Navigation, Roster };

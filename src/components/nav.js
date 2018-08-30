@@ -9,8 +9,12 @@ class Navigation extends Component {
           <h1> S/F </h1>
         </Row>
         <Row owo>
-          <h2>Home</h2>
-          <h2>Roster</h2>
+          <a href="/">
+            <h2>Home</h2>
+          </a>
+          <a href="/roster">
+            <h2>Roster</h2>
+          </a>
           <h2>Guides</h2>
           <h2>OwO</h2>
           <h2>Join the Team</h2>
