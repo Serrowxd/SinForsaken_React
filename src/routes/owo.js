@@ -2,15 +2,15 @@ import React, { Fragment } from 'react';
 import { Body } from '../styles/theme';
 import { Navigation } from '../reducer';
 
-const Roster = () => {
+const OwO = () => {
   return (
     <Fragment>
       <Navigation />
       <Body>
-        <h1> Roster! </h1>
+        <h1> OwO! </h1>
       </Body>
     </Fragment>
   );
 };
 
-export default Roster;
+export default OwO;

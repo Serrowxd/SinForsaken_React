@@ -2,15 +2,15 @@ import React, { Fragment } from 'react';
 import { Body } from '../styles/theme';
 import { Navigation } from '../reducer';
 
-const Roster = () => {
+const JoinUs = () => {
   return (
     <Fragment>
       <Navigation />
       <Body>
-        <h1> Roster! </h1>
+        <h1> Join the Team! </h1>
       </Body>
     </Fragment>
   );
 };
 
-export default Roster;
+export default JoinUs;

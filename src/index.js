@@ -2,7 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import App from './App';
 import { Container } from './styles/theme';
-import { Roster } from './reducer';
+import { Roster, Guides, OwO, JoinUs } from './reducer';
 import registerServiceWorker from './registerServiceWorker';
 import { BrowserRouter as Router, Route } from 'react-router-dom';
 
@@ -11,6 +11,9 @@ ReactDOM.render(
     <Container>
       <Route exact path="/" component={App} />
       <Route path="/roster" component={Roster} />
+      <Route path="/guides" component={Guides} />
+      <Route path="/owo" component={OwO} />
+      <Route path="/join" component={JoinUs} />
     </Container>
   </Router>,
   document.getElementById('root')

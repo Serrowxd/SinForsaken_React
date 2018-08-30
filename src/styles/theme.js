@@ -5,10 +5,10 @@ import styled, { css } from 'styled-components';
 
 const colors = {
   pink: '#d81b60',
-  white: '#fafafa',
+  black: '#212121',
 };
 
-const { pink, white } = colors; // destructoring
+const { pink, black } = colors; // destructoring
 
 // Layout
 export const Container = styled.div`
@@ -45,6 +45,10 @@ export const NavBar = styled.div`
   justify-content: space-evenly;
   align-items: center;
   width: 100%;
+  height: ${props => props.height};
+  position: ${props => props.position};
+  background-color: ${props => props.background};
+  transition: all 1s ease;
 `;
 
 export const Column = styled.div`
