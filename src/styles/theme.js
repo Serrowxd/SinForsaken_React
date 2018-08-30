@@ -75,5 +75,15 @@ export const Row = styled.div`
     css`
       width: 100%;
       justify-content: space-evenly;
+
+      h2 {
+        transition: color 0.3s ease;
+        cursor: pointer;
+
+        &:hover {
+          /* color: #c2185b; */
+          color: #d81b60;
+        }
+      }
     `};
 `;
