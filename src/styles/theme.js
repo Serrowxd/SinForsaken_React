@@ -14,66 +14,66 @@ const { pink, white } = colors; // destructoring
 export const Container = styled.div`
   display: flex;
   flex-direction: column;
+  /* justify-content: center; */
   width: 100%;
+  height: 100vh;
   max-width: 1920px;
   min-width: 800px;
 `;
 
 export const Jumbo = styled.div`
   display: flex;
-  width: 90%;
-  justify-content: center;
-
-  img {
-    width: 100%;
-    height: auto;
-    border: 15px solid gray;
-  }
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 100%;
+  height: 75%;
+  background-color: #303030;
 `;
 
-export const Row = styled.div`
+export const NavBar = styled.div`
   display: flex;
-  justify-content: ${props => props.justify};
   flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
   width: 100%;
-  height: ${props => props.height};
-
-  ${props =>
-    props.topmargin &&
-    css`
-      margin-top: 3rem;
-    `};
-
-  ${props =>
-    props.navstyle &&
-    css`
-      background-color: ${colors.pink};
-      color: ${colors.white};
-      border-radius: 30px;
-
-      p {
-        font-size: 1.5rem;
-      }
-    `};
 `;
 
 export const Column = styled.div`
   display: flex;
   flex-direction: column;
-  justify-content: ${props => props.justify};
-
-  ${props =>
-    props.topmargin &&
-    css`
-      margin-top: 3rem;
-    `}
-  /* justify-content: center; */
-  width: ${props => props.width};
+  width: 100%;
 
   img {
-    height: 6rem;
-    width: 90%;
-    border-radius: 20px;
+    height: auto;
+    width: 15rem;
     align-self: center;
   }
+`;
+
+export const Row = styled.div`
+  display: flex;
+  flex-direction: row;
+  width: 85%;
+  height: 100%;
+  align-items: center;
+
+  ${props =>
+    props.navrow &&
+    css`
+      width: 10%;
+      justify-content: center;
+      font-family: 'Rock Salt', cursive;
+
+      h1 {
+        font-size: 2rem;
+      }
+    `};
+
+  ${props =>
+    props.owo &&
+    css`
+      width: 100%;
+      justify-content: space-evenly;
+    `};
 `;
