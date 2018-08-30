@@ -4,7 +4,7 @@ import styled, { css } from 'styled-components';
 // Color Const
 
 const colors = {
-  pink: '#ff0266',
+  pink: '#d81b60',
   white: '#fafafa',
 };
 
@@ -16,9 +16,17 @@ export const Container = styled.div`
   flex-direction: column;
   /* justify-content: center; */
   width: 100%;
-  height: 100vh;
   max-width: 1920px;
   min-width: 800px;
+  position: relative;
+  overflow: hidden;
+`;
+
+export const LandingContainer = styled.div`
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 90vh;
 `;
 
 export const Jumbo = styled.div`
@@ -27,7 +35,7 @@ export const Jumbo = styled.div`
   justify-content: space-evenly;
   align-items: center;
   width: 100%;
-  height: 75%;
+  height: 85%;
   background-color: #303030;
 `;
 
@@ -49,12 +57,32 @@ export const Column = styled.div`
     width: 15rem;
     align-self: center;
   }
+
+  ${props =>
+    props.whois &&
+    css`
+      width: 50%;
+
+      h1 {
+        text-align: center;
+      }
+
+      img {
+        height: auto;
+        width: 25rem;
+      }
+
+      .img2 {
+        height: auto;
+        width: 15rem;
+      }
+    `};
 `;
 
 export const Row = styled.div`
   display: flex;
   flex-direction: row;
-  width: 85%;
+  width: ${props => props.width};
   height: 100%;
   align-items: center;
 
@@ -82,8 +110,30 @@ export const Row = styled.div`
 
         &:hover {
           /* color: #c2185b; */
-          color: #d81b60;
+          color: ${pink};
         }
       }
+    `};
+
+  ${props =>
+    props.padded &&
+    css`
+      width: 95%;
+      align-self: center;
+      justify-content: center;
+    `};
+`;
+
+export const Body = styled.div`
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  padding-top: 5%;
+  padding-bottom: 5%;
+
+  ${props =>
+    props.light &&
+    css`
+      background-color: #303030;
     `};
 `;
