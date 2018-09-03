@@ -4,6 +4,8 @@ import { Navigation, Footer, RaiderSmol } from '../reducer';
 
 import img from '../assets/serrowattak.png';
 import img2 from '../assets/deimos.png';
+import img3 from '../assets/ygg.png';
+import img4 from '../assets/oohehmgee.png';
 
 const Roster = () => {
   return (
@@ -47,7 +49,7 @@ const Roster = () => {
         <h1> DPS </h1>
         <Row width="100%" raidrow wrap="wrap">
           <RaiderSmol
-            img={img}
+            img={img3}
             name="Yggralith"
             class="Havoc DH"
             color="purple"
@@ -89,7 +91,7 @@ const Roster = () => {
           />
           <RaiderSmol img={img} name="Mallc" class="? Warlock" />
           <RaiderSmol
-            img={img}
+            img={img4}
             name="OohEhmGee"
             class="Arcane Mage"
             color="teal"

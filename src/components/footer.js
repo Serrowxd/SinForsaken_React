@@ -15,7 +15,6 @@ const Footer = () => {
         >
           Serrow
         </a>{' '}
-        (OvO")
       </p>
     </Row>
   );

@@ -34,14 +34,16 @@ class Landing extends Component {
             <Column whois>
               <h1> Who are we? </h1>
               <p>
-                <strong>SinForsaken</strong> of Area 52 is Lorem ipsum dolor sit
-                amet, consectetur adipiscing elit, sed do eiusmod tempor
-                incididunt ut labore et dolore magna aliqua. Ut enim ad minim
-                veniam, quis nostrud exercitation ullamco laboris nisi ut
-                aliquip ex ea commodo consequat. Duis aute irure dolor in
-                reprehenderit in voluptate velit esse cillum dolore eu fugiat
-                nulla pariatur. Excepteur sint occaecat cupidatat non proident,
-                sunt in culpa qui officia deserunt mollit anim id est laborum.
+                <strong>SinForsaken</strong> is a semi-hardcore raiding guild on
+                the server US-Area 52, Horde Side. We are a close-knit community
+                focused on progression, team-building, and playing
+                competitively. We have been competitive raiders for upwards of
+                eight years, competing with server top 3 and attending three
+                Blizzcons together. We raid Tuesday and Wednesday 7:30pm to
+                11:00pm EST. SinForsaken enjoys playing other games together as
+                well, including HoTS, FFXIV, LoL, Hearthstone, and OW. While
+                less competitive, we have and maintain a raid static in FFXIV on
+                the server Mateus.
               </p>
             </Column>
             <Column whois>
@@ -57,14 +59,13 @@ class Landing extends Component {
             <Column whois>
               <h1>Area52 - Horde</h1>
               <p>
-                <strong>SinForsaken</strong> of Area 52 is Lorem ipsum dolor sit
-                amet, consectetur adipiscing elit, sed do eiusmod tempor
-                incididunt ut labore et dolore magna aliqua. Ut enim ad minim
-                veniam, quis nostrud exercitation ullamco laboris nisi ut
-                aliquip ex ea commodo consequat. Duis aute irure dolor in
-                reprehenderit in voluptate velit esse cillum dolore eu fugiat
-                nulla pariatur. Excepteur sint occaecat cupidatat non proident,
-                sunt in culpa qui officia deserunt mollit anim id est laborum.
+                <strong>SinForsaken</strong> What can you expect? We’re a casual
+                bunch of gamers who enjoy dank memes, a laidback raid
+                environment, and talking about end-game content. Elitist
+                attitudes need not apply. We have multiple competitive Mythic +
+                groups that run throughout the week, pvp and arena gurus, and
+                PvP island expedition teams. If you’re a more casual player, we
+                have a place for you too!
               </p>
             </Column>
           </Row>
