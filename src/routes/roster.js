@@ -11,35 +11,95 @@ const Roster = () => {
       <PaddingContainer raider>
         <h1> Tanks </h1>
         <Row width="100%" raidrow>
-          <RaiderSmol img={img} name="Mariels" class="Blood DK" />
-          <RaiderSmol img={img} name="Phobos" class="Prot Warrior" />
-          <RaiderSmol img={img} name="Obearma" class="Blood DK" />
+          <RaiderSmol img={img} name="Mariels" class="Blood DK" color="red" />
+          <RaiderSmol
+            img={img}
+            name="Phobos"
+            class="Prot Warrior"
+            color="tan"
+          />
+          <RaiderSmol img={img} name="Obearma" class="Blood DK" color="red" />
         </Row>
         <h1> Healers </h1>
         <Row width="100%" raidrow>
-          <RaiderSmol img={img} name="Deimos" class="Holy Paladin" />
-          <RaiderSmol img={img} name="Jit" class="Resto Shaman" />
-          <RaiderSmol img={img} name="Packinlip" class="Mistweaver Monk" />
-          <RaiderSmol img={img} name="Hypurz" class="Resto Druid" />
+          <RaiderSmol
+            img={img}
+            name="Deimos"
+            class="Holy Paladin"
+            color="pink"
+          />
+          <RaiderSmol img={img} name="Jit" class="Resto Shaman" color="blue" />
+          <RaiderSmol
+            img={img}
+            name="Packinlip"
+            class="Mistweaver Monk"
+            color="lightgreen"
+          />
+          <RaiderSmol
+            img={img}
+            name="Hypurz"
+            class="Resto Druid"
+            color="orange"
+          />
           <RaiderSmol img={img} name="Soothee" class="Disc Priest" />
         </Row>
         <h1> DPS </h1>
         <Row width="100%" raidrow wrap="wrap">
-          <RaiderSmol img={img} name="Yggralith" class="Havoc DH" />
-          <RaiderSmol img={img} name="Gorbix" class="? Rogue" />
-          <RaiderSmol img={img} name="Madikin" class="? Rogue" />
-          <RaiderSmol img={img} name="Biigmeech" class="? Warrior" />
-          <RaiderSmol img={img} name="Mallorean" class="Fury Warrior" />
-          <RaiderSmol img={img} name="Serrow" class="Feral Druid" />
-          <RaiderSmol img={img} name="Link" class="? Warrior" />
-          <RaiderSmol img={img} name="Brarien" class="Ret Paladin" />
-          <RaiderSmol img={img} name="Juggnut" class="? Rogue" />
-          <RaiderSmol img={img} name="Vacoon" class="? Warrior" />
-          <RaiderSmol img={img} name="Boxedkitten" class="BM Hunter" />
+          <RaiderSmol
+            img={img}
+            name="Yggralith"
+            class="Havoc DH"
+            color="purple"
+          />
+          <RaiderSmol img={img} name="Gorbix" class="? Rogue" color="yellow" />
+          <RaiderSmol img={img} name="Madikin" class="? Rogue" color="yellow" />
+          <RaiderSmol
+            img={img}
+            name="Biigmeech"
+            class="? Warrior"
+            color="tan"
+          />
+          <RaiderSmol
+            img={img}
+            name="Mallorean"
+            class="Fury Warrior"
+            color="tan"
+          />
+          <RaiderSmol
+            img={img}
+            name="Serrow"
+            class="Feral Druid"
+            color="orange"
+          />
+          <RaiderSmol img={img} name="Link" class="? Warrior" color="tan" />
+          <RaiderSmol
+            img={img}
+            name="Brarien"
+            class="Ret Paladin"
+            color="pink"
+          />
+          <RaiderSmol img={img} name="Juggnut" class="? Rogue" color="yellow" />
+          <RaiderSmol img={img} name="Vacoon" class="? Warrior" color="tan" />
+          <RaiderSmol
+            img={img}
+            name="Boxedkitten"
+            class="BM Hunter"
+            color="green"
+          />
           <RaiderSmol img={img} name="Mallc" class="? Warlock" />
-          <RaiderSmol img={img} name="OohEhmGee" class="Arcane Mage" />
-          <RaiderSmol img={img} name="Tox" class="? Shaman" />
-          <RaiderSmol img={img} name="Saltydingus" class="? Mage" />
+          <RaiderSmol
+            img={img}
+            name="OohEhmGee"
+            class="Arcane Mage"
+            color="teal"
+          />
+          <RaiderSmol img={img} name="Tox" class="? Shaman" color="blue" />
+          <RaiderSmol
+            img={img}
+            name="Saltydingus"
+            class="? Mage"
+            color="teal"
+          />
         </Row>
       </PaddingContainer>
       <Footer />

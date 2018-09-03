@@ -231,6 +231,10 @@ export const RaiderContainer = styled.div`
   margin-top: 2rem;
   transition: opacity 0.3s ease;
 
+  h4 {
+    color: ${props => props.color};
+  }
+
   &:hover {
     cursor: pointer;
     opacity: 0.7;
