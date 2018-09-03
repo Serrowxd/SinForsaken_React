@@ -3,7 +3,7 @@ import { Row } from '../styles/theme';
 
 const Footer = () => {
   return (
-    <Row>
+    <Row footrow>
       <p>
         {' '}
         Copyright (c) 2018 SinForsaken || Design & Code by{' '}

@@ -14,12 +14,11 @@ const { pink, black } = colors; // destructoring
 export const Container = styled.div`
   display: flex;
   flex-direction: column;
-  /* justify-content: center; */
   width: 100%;
   max-width: 1920px;
   min-width: 800px;
-  position: relative;
-  overflow: hidden;
+  /* position: relative;
+  overflow: hidden; */
 `;
 
 export const LandingContainer = styled.div`
@@ -27,6 +26,34 @@ export const LandingContainer = styled.div`
   flex-direction: column;
   width: 100%;
   height: 90vh;
+`;
+
+// This container gives a global padding to the non-landing pages
+export const PaddingContainer = styled.div`
+  display: flex;
+  flex-direction: column;
+  width: 95%;
+  height: auto;
+  align-self: center;
+  justify-content: space-evenly;
+  text-align: center;
+
+  ${props =>
+    props.raider &&
+    css`
+      h1 {
+        background-color: #d81b60;
+        margin-top: 8rem;
+        margin-bottom: 2rem;
+        width: 100%;
+        align-self: center;
+        opacity: 0.8;
+      }
+
+      h2 {
+        font-size: 2.5rem;
+      }
+    `};
 `;
 
 export const Jumbo = styled.div`
@@ -153,12 +180,26 @@ export const Row = styled.div`
       align-self: center;
       justify-content: center;
     `};
+
+  ${props =>
+    props.footrow &&
+    css`
+      padding-top: 2rem;
+      justify-content: center;
+    `};
+
+  ${props =>
+    props.raidrow &&
+    css`
+      justify-content: space-evenly;
+      flex-wrap: wrap;
+    `};
 `;
 
 export const Body = styled.div`
   display: flex;
   width: 100%;
-  justify-content: center;
+  justify-content: ${props => props.justify};
   padding-top: 5%;
   padding-bottom: 5%;
 
@@ -173,5 +214,30 @@ export const Body = styled.div`
     css`
       padding-top: 0;
       padding-bottom: 0;
+    `};
+`;
+
+export const RaiderContainer = styled.div`
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  background-color: #303030;
+  justify-content: space-evenly;
+  position: relative;
+  overflow: hidden;
+  margin-top: 2rem;
+
+  ${props =>
+    props.raidermini &&
+    css`
+      height: 15rem;
+      align-items: flex-end;
+      background-color: #303030;
+      width: 40%;
+
+      img {
+        height: auto;
+        width: 13rem;
+      }
     `};
 `;

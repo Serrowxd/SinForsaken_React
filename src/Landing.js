@@ -15,7 +15,7 @@ import serrow2 from './assets/serrowattak.png';
 
 import './styles/css/styles.css';
 
-class App extends Component {
+class Landing extends Component {
   ohMy() {
     alert("Oh Senpai, w-we shouldn't ;w;");
   }
@@ -36,7 +36,7 @@ class App extends Component {
             </Row>
           </Jumbo>
         </LandingContainer>
-        <Body light>
+        <Body justify="center" light>
           <Row padded>
             <Column whois>
               <h1> Who are we? </h1>
@@ -56,7 +56,7 @@ class App extends Component {
             </Column>
           </Row>
         </Body>
-        <Body>
+        <Body justify="center">
           <Row padded>
             <Column whois>
               <img src={serrow2} alt="Serrow Meow" class="img2" />
@@ -76,7 +76,7 @@ class App extends Component {
             </Column>
           </Row>
         </Body>
-        <Body light>
+        <Body justify="center" light>
           <Row padded>
             <Column joinup>
               <h1> QwQ </h1>
@@ -88,7 +88,7 @@ class App extends Component {
             </Column>
           </Row>
         </Body>
-        <Body foot>
+        <Body justify="center" foot>
           <Footer />
         </Body>
       </Fragment>
@@ -96,7 +96,7 @@ class App extends Component {
   }
 }
 
-export default App;
+export default Landing;
 
 // #212121 - Background
 // #303030 - Foreground
