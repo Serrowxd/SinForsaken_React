@@ -250,8 +250,9 @@ export const RaiderContainer = styled.div`
 
       img {
         height: auto;
-        width: 13rem;
+        width: 20rem;
         min-width: 10rem;
+        align-self: flex-start;
       }
     `};
 `;

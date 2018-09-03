@@ -1,8 +1,9 @@
 import React, { Fragment } from 'react';
-import { Body, PaddingContainer, Row, RaiderContainer } from '../styles/theme';
+import { PaddingContainer, Row } from '../styles/theme';
 import { Navigation, Footer, RaiderSmol } from '../reducer';
 
 import img from '../assets/serrowattak.png';
+import img2 from '../assets/deimos.png';
 
 const Roster = () => {
   return (
@@ -23,7 +24,7 @@ const Roster = () => {
         <h1> Healers </h1>
         <Row width="100%" raidrow>
           <RaiderSmol
-            img={img}
+            img={img2}
             name="Deimos"
             class="Holy Paladin"
             color="pink"

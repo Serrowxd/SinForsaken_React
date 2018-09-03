@@ -1,12 +1,5 @@
 import React, { Component, Fragment } from 'react';
-import {
-  Container,
-  LandingContainer,
-  Row,
-  Column,
-  Jumbo,
-  Body,
-} from './styles/theme';
+import { LandingContainer, Row, Column, Jumbo, Body } from './styles/theme';
 import { Navigation, Footer } from './reducer';
 
 import img from './assets/sincakenb.png';

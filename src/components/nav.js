@@ -34,7 +34,7 @@ class Navigation extends Component {
   // OnScroll is broken, will have to debug later.
 
   render() {
-    const scrolled = this.state.scrolled;
+    // const scrolled = this.state.scrolled;
     return (
       // <NavBar
       //   onScroll={() => this.setState({ scrolled: true })}
