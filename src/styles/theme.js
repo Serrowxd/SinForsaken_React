@@ -50,7 +50,7 @@ export const PaddingContainer = styled.div`
       }
 
       h2 {
-        font-size: 2.5rem;
+        font-size: 2rem;
 
         /* @media (max-width: 1200px) {
           font-size: 2rem;
