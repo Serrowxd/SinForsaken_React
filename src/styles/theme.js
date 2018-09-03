@@ -45,9 +45,8 @@ export const PaddingContainer = styled.div`
         background-color: #d81b60;
         margin-top: 8rem;
         margin-bottom: 2rem;
-        width: 100%;
-        align-self: center;
-        opacity: 0.8;
+        width: 20%;
+        /* align-self: center; */
       }
 
       h2 {
@@ -226,6 +225,12 @@ export const RaiderContainer = styled.div`
   position: relative;
   overflow: hidden;
   margin-top: 2rem;
+  transition: opacity 0.3s ease;
+
+  &:hover {
+    cursor: pointer;
+    opacity: 0.7;
+  }
 
   ${props =>
     props.raidermini &&

@@ -1,6 +1,6 @@
 import React, { Fragment } from 'react';
 import { Body, PaddingContainer, Row, RaiderContainer } from '../styles/theme';
-import { Navigation, Footer } from '../reducer';
+import { Navigation, Footer, RaiderSmol } from '../reducer';
 
 import img from '../assets/serrowattak.png';
 
@@ -11,120 +11,33 @@ const Roster = () => {
       <PaddingContainer raider>
         <h1> Tanks </h1>
         <Row width="100%" raidrow>
-          <RaiderContainer raidermini>
-            <h2> Serrow </h2>
-            <h4> Feral Druid</h4>
-            <img src={img} alt="raider" class="img" />
-          </RaiderContainer>
-
-          <RaiderContainer raidermini>
-            <h2> Serrow </h2>
-            <h4> Feral Druid</h4>
-            <img src={img} alt="raider" class="img" />
-          </RaiderContainer>
+          <RaiderSmol img={img} name="Serrow" class="Feral Druid" />
+          <RaiderSmol img={img} name="Serrow" class="Feral Druid" />
         </Row>
         <h1> Healers </h1>
         <Row width="100%" raidrow>
-          <RaiderContainer raidermini>
-            <h2> Serrow </h2>
-            <h4> Feral Druid</h4>
-            <img src={img} alt="raider" class="img" />
-          </RaiderContainer>
-
-          <RaiderContainer raidermini>
-            <h2> Serrow </h2>
-            <h4> Feral Druid</h4>
-            <img src={img} alt="raider" class="img" />
-          </RaiderContainer>
-
-          <RaiderContainer raidermini>
-            <h2> Serrow </h2>
-            <h4> Feral Druid</h4>
-            <img src={img} alt="raider" class="img" />
-          </RaiderContainer>
-
-          <RaiderContainer raidermini>
-            <h2> Serrow </h2>
-            <h4> Feral Druid</h4>
-            <img src={img} alt="raider" class="img" />
-          </RaiderContainer>
+          <RaiderSmol img={img} name="Serrow" class="Feral Druid" />
+          <RaiderSmol img={img} name="Serrow" class="Feral Druid" />
+          <RaiderSmol img={img} name="Serrow" class="Feral Druid" />
+          <RaiderSmol img={img} name="Serrow" class="Feral Druid" />
         </Row>
         <h1> DPS </h1>
         <Row width="100%" raidrow wrap="wrap">
-          <RaiderContainer raidermini>
-            <h2> Serrow </h2>
-            <h4> Feral Druid</h4>
-            <img src={img} alt="raider" class="img" />
-          </RaiderContainer>
-
-          <RaiderContainer raidermini>
-            <h2> Serrow </h2>
-            <h4> Feral Druid</h4>
-            <img src={img} alt="raider" class="img" />
-          </RaiderContainer>
-
-          <RaiderContainer raidermini>
-            <h2> Serrow </h2>
-            <h4> Feral Druid</h4>
-            <img src={img} alt="raider" class="img" />
-          </RaiderContainer>
-
-          <RaiderContainer raidermini>
-            <h2> Serrow </h2>
-            <h4> Feral Druid</h4>
-            <img src={img} alt="raider" class="img" />
-          </RaiderContainer>
-
-          <RaiderContainer raidermini>
-            <h2> Serrow </h2>
-            <h4> Feral Druid</h4>
-            <img src={img} alt="raider" class="img" />
-          </RaiderContainer>
-
-          <RaiderContainer raidermini>
-            <h2> Serrow </h2>
-            <h4> Feral Druid</h4>
-            <img src={img} alt="raider" class="img" />
-          </RaiderContainer>
-
-          <RaiderContainer raidermini>
-            <h2> Serrow </h2>
-            <h4> Feral Druid</h4>
-            <img src={img} alt="raider" class="img" />
-          </RaiderContainer>
-
-          <RaiderContainer raidermini>
-            <h2> Serrow </h2>
-            <h4> Feral Druid</h4>
-            <img src={img} alt="raider" class="img" />
-          </RaiderContainer>
-
-          <RaiderContainer raidermini>
-            <h2> Serrow </h2>
-            <h4> Feral Druid</h4>
-            <img src={img} alt="raider" class="img" />
-          </RaiderContainer>
-
-          <RaiderContainer raidermini>
-            <h2> Serrow </h2>
-            <h4> Feral Druid</h4>
-            <img src={img} alt="raider" class="img" />
-          </RaiderContainer>
-
-          <RaiderContainer raidermini>
-            <h2> Serrow </h2>
-            <h4> Feral Druid</h4>
-            <img src={img} alt="raider" class="img" />
-          </RaiderContainer>
-
-          <RaiderContainer raidermini>
-            <h2> Serrow </h2>
-            <h4> Feral Druid</h4>
-            <img src={img} alt="raider" class="img" />
-          </RaiderContainer>
+          <RaiderSmol img={img} name="Serrow" class="Feral Druid" />
+          <RaiderSmol img={img} name="Serrow" class="Feral Druid" />
+          <RaiderSmol img={img} name="Serrow" class="Feral Druid" />
+          <RaiderSmol img={img} name="Serrow" class="Feral Druid" />
+          <RaiderSmol img={img} name="Serrow" class="Feral Druid" />
+          <RaiderSmol img={img} name="Serrow" class="Feral Druid" />
+          <RaiderSmol img={img} name="Serrow" class="Feral Druid" />
+          <RaiderSmol img={img} name="Serrow" class="Feral Druid" />
+          <RaiderSmol img={img} name="Serrow" class="Feral Druid" />
+          <RaiderSmol img={img} name="Serrow" class="Feral Druid" />
+          <RaiderSmol img={img} name="Serrow" class="Feral Druid" />
+          <RaiderSmol img={img} name="Serrow" class="Feral Druid" />
         </Row>
       </PaddingContainer>
-      {/* <Footer /> */}
+      <Footer />
     </Fragment>
   );
 };
