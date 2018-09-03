@@ -9,3 +9,11 @@ WORK IN PROGRESS
 https://www.muffin-manufaktur-berlin.de/#
 
 https://whatpixel.com/bakery-web-design-inspiration/
+
+## TODO
+
+- Raider Cards should have a constant width, the image also shrinks and should be solid.
+
+- Navigation breaks at lower viewports, this needs to be fixed as well.
+
+- Add more stuff to the landing page, possibly a suggestion to visit the raider section, then some videos, possibly some of the MSPaint strats?
