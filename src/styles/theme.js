@@ -50,7 +50,9 @@ export const PaddingContainer = styled.div`
       }
 
       h2 {
-        font-size: 2rem;
+        font-size: 3rem;
+        position: relative;
+        align-self: center;
 
         /* @media (max-width: 1200px) {
           font-size: 2rem;
@@ -255,4 +257,14 @@ export const RaiderContainer = styled.div`
         align-self: flex-start;
       }
     `};
+`;
+
+export const UnstyledColumn = styled.div`
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  h2 {
+    margin: 0;
+  }
 `;
