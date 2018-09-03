@@ -51,6 +51,10 @@ export const PaddingContainer = styled.div`
 
       h2 {
         font-size: 2.5rem;
+
+        /* @media (max-width: 1200px) {
+          font-size: 2rem;
+        } */
       }
     `};
 `;
@@ -243,6 +247,7 @@ export const RaiderContainer = styled.div`
       img {
         height: auto;
         width: 13rem;
+        min-width: 10rem;
       }
     `};
 `;
