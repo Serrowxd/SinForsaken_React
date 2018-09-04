@@ -23,18 +23,21 @@ const Roster = () => {
             name="Mariels"
             class="Blood DK"
             color="red"
+            href=""
           />
           <RaiderSmol
             img={imgtemp}
             name="Phobos"
             class="Prot Warrior"
             color="tan"
+            href=""
           />
           <RaiderSmol
             img={imgtemp}
             name="Obearma"
             class="Blood DK"
             color="red"
+            href=""
           />
         </Row>
         <h1> Healers </h1>
@@ -44,26 +47,35 @@ const Roster = () => {
             name="Deimos"
             class="Holy Paladin"
             color="pink"
+            href=""
           />
           <RaiderSmol
             img={imgtemp}
             name="Jit"
             class="Resto Shaman"
             color="blue"
+            href=""
           />
           <RaiderSmol
             img={imgtemp}
             name="Packinlip"
             class="Mistweaver Monk"
             color="lightgreen"
+            href=""
           />
           <RaiderSmol
             img={imgtemp}
             name="Hypurz"
             class="Resto Druid"
             color="orange"
+            href=""
           />
-          <RaiderSmol img={imgtemp} name="Soothee" class="Disc Priest" />
+          <RaiderSmol
+            img={imgtemp}
+            name="Soothee"
+            class="Disc Priest"
+            href=""
+          />
         </Row>
         <h1> DPS </h1>
         <Row width="100%" raidrow wrap="wrap">
@@ -72,76 +84,99 @@ const Roster = () => {
             name="Yggralith"
             class="Havoc DH"
             color="purple"
+            href=""
           />
           <RaiderSmol
             img={imgtemp}
             name="Gorbix"
             class="? Rogue"
             color="yellow"
+            href=""
           />
           <RaiderSmol
             img={imgtemp}
             name="Madikin"
             class="? Rogue"
             color="yellow"
+            href=""
           />
           <RaiderSmol
             img={imgtemp}
             name="Biigmeech"
             class="? Warrior"
             color="tan"
+            href=""
           />
           <RaiderSmol
             img={imgtemp}
             name="Mallorean"
             class="Fury Warrior"
             color="tan"
+            href=""
           />
           <RaiderSmol
             img={img}
             name="Serrow"
             class="Feral Druid"
             color="orange"
-            href="/"
+            href="/serrow"
           />
-          <RaiderSmol img={imgtemp} name="Link" class="? Warrior" color="tan" />
+          <RaiderSmol
+            img={imgtemp}
+            name="Link"
+            class="? Warrior"
+            color="tan"
+            href=""
+          />
           <RaiderSmol
             img={imgtemp}
             name="Brarien"
             class="Ret Paladin"
             color="pink"
+            href=""
           />
           <RaiderSmol
             img={imgtemp}
             name="Juggnut"
             class="? Rogue"
             color="yellow"
+            href=""
           />
           <RaiderSmol
             img={imgtemp}
             name="Vacoon"
             class="? Warrior"
             color="tan"
+            href=""
           />
           <RaiderSmol
             img={imgtemp}
             name="Boxedkitten"
             class="BM Hunter"
             color="green"
+            href=""
           />
-          <RaiderSmol img={imgtemp} name="Mallc" class="? Warlock" />
+          <RaiderSmol img={imgtemp} name="Mallc" class="? Warlock" href="" />
           <RaiderSmol
             img={img4}
             name="OohEhmGee"
             class="Arcane Mage"
             color="teal"
+            href=""
           />
-          <RaiderSmol img={img6} name="Tox" class="? Shaman" color="blue" />
+          <RaiderSmol
+            img={img6}
+            name="Tox"
+            class="? Shaman"
+            color="blue"
+            href=""
+          />
           <RaiderSmol
             img={imgtemp}
             name="Saltydingus"
             class="? Mage"
             color="teal"
+            href=""
           />
         </Row>
         <h1> Support Squad </h1>
@@ -151,6 +186,7 @@ const Roster = () => {
             name="Holy Carp"
             class="Material Farmer"
             color=""
+            href=""
             fix="center !important"
           />
         </Row>

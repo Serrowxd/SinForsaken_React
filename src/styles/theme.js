@@ -63,6 +63,7 @@ export const PaddingContainer = styled.div`
   ${props =>
     props.raiderprof &&
     css`
+      background-color: #303030;
       height: 75vh;
     `};
 `;
