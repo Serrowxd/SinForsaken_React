@@ -36,3 +36,6 @@ body {
 .footerSerrow:hover {
   color: #18d7dd;
 }
+.carp_fix img {
+  align-self: flex-end !important;
+}

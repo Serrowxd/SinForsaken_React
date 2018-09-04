@@ -233,6 +233,10 @@ export const RaiderContainer = styled.div`
   margin-top: 2rem;
   transition: opacity 0.3s ease;
 
+  img {
+    align-self: ${props => props.fix};
+  }
+
   h4 {
     color: ${props => props.color};
   }

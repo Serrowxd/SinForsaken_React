@@ -6,6 +6,7 @@ import img from '../assets/serrowattak.png';
 import img2 from '../assets/deimos.png';
 import img3 from '../assets/ygg.png';
 import img4 from '../assets/oohehmgee.png';
+import img5 from '../assets/carp.png';
 
 import imgtemp from '../assets/sincakenb.png';
 
@@ -139,6 +140,16 @@ const Roster = () => {
             name="Saltydingus"
             class="? Mage"
             color="teal"
+          />
+        </Row>
+        <h1> Support Squad </h1>
+        <Row width="100%" raidrow>
+          <RaiderSmol
+            img={img5}
+            name="Holy Carp"
+            class="Material Farmer"
+            color=""
+            fix="center !important"
           />
         </Row>
       </PaddingContainer>
