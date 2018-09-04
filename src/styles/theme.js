@@ -59,6 +59,12 @@ export const PaddingContainer = styled.div`
         } */
       }
     `};
+
+  ${props =>
+    props.raiderprof &&
+    css`
+      height: 75vh;
+    `};
 `;
 
 export const Jumbo = styled.div`
@@ -132,6 +138,35 @@ export const Column = styled.div`
         margin-top: 1rem;
         padding: 1rem;
         font-size: 1rem;
+      }
+    `};
+
+  ${props =>
+    props.raiderprofile &&
+    css`
+      width: 50%;
+
+      img {
+        height: auto;
+        width: 55rem;
+        border-radius: 1rem;
+      }
+
+      h1 {
+        font-size: 5rem;
+        color: ${props => props.color};
+        margin: 0;
+      }
+
+      a {
+        font-size: 1.5rem;
+        text-decoration: none;
+        color: snow;
+        transition: color 0.3s;
+
+        &:hover {
+          color: ${props => props.color};
+        }
       }
     `};
 `;
@@ -244,6 +279,15 @@ export const RaiderContainer = styled.div`
   &:hover {
     cursor: pointer;
     opacity: 0.7;
+  }
+
+  a {
+    text-decoration: none;
+    color: snow;
+
+    &:hover {
+      color: ${props => props.color};
+    }
   }
 
   ${props =>

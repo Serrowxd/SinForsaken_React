@@ -7,6 +7,7 @@ import img2 from '../assets/deimos.png';
 import img3 from '../assets/ygg.png';
 import img4 from '../assets/oohehmgee.png';
 import img5 from '../assets/carp.png';
+import img6 from '../assets/tox.png';
 
 import imgtemp from '../assets/sincakenb.png';
 
@@ -101,6 +102,7 @@ const Roster = () => {
             name="Serrow"
             class="Feral Druid"
             color="orange"
+            href="/"
           />
           <RaiderSmol img={imgtemp} name="Link" class="? Warrior" color="tan" />
           <RaiderSmol
@@ -134,7 +136,7 @@ const Roster = () => {
             class="Arcane Mage"
             color="teal"
           />
-          <RaiderSmol img={imgtemp} name="Tox" class="? Shaman" color="blue" />
+          <RaiderSmol img={img6} name="Tox" class="? Shaman" color="blue" />
           <RaiderSmol
             img={imgtemp}
             name="Saltydingus"
