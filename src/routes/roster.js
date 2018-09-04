@@ -7,6 +7,8 @@ import img2 from '../assets/deimos.png';
 import img3 from '../assets/ygg.png';
 import img4 from '../assets/oohehmgee.png';
 
+import imgtemp from '../assets/sincakenb.png';
+
 const Roster = () => {
   return (
     <Fragment>
@@ -14,14 +16,24 @@ const Roster = () => {
       <PaddingContainer raider>
         <h1> Tanks </h1>
         <Row width="100%" raidrow>
-          <RaiderSmol img={img} name="Mariels" class="Blood DK" color="red" />
           <RaiderSmol
-            img={img}
+            img={imgtemp}
+            name="Mariels"
+            class="Blood DK"
+            color="red"
+          />
+          <RaiderSmol
+            img={imgtemp}
             name="Phobos"
             class="Prot Warrior"
             color="tan"
           />
-          <RaiderSmol img={img} name="Obearma" class="Blood DK" color="red" />
+          <RaiderSmol
+            img={imgtemp}
+            name="Obearma"
+            class="Blood DK"
+            color="red"
+          />
         </Row>
         <h1> Healers </h1>
         <Row width="100%" raidrow>
@@ -31,20 +43,25 @@ const Roster = () => {
             class="Holy Paladin"
             color="pink"
           />
-          <RaiderSmol img={img} name="Jit" class="Resto Shaman" color="blue" />
           <RaiderSmol
-            img={img}
+            img={imgtemp}
+            name="Jit"
+            class="Resto Shaman"
+            color="blue"
+          />
+          <RaiderSmol
+            img={imgtemp}
             name="Packinlip"
             class="Mistweaver Monk"
             color="lightgreen"
           />
           <RaiderSmol
-            img={img}
+            img={imgtemp}
             name="Hypurz"
             class="Resto Druid"
             color="orange"
           />
-          <RaiderSmol img={img} name="Soothee" class="Disc Priest" />
+          <RaiderSmol img={imgtemp} name="Soothee" class="Disc Priest" />
         </Row>
         <h1> DPS </h1>
         <Row width="100%" raidrow wrap="wrap">
@@ -54,16 +71,26 @@ const Roster = () => {
             class="Havoc DH"
             color="purple"
           />
-          <RaiderSmol img={img} name="Gorbix" class="? Rogue" color="yellow" />
-          <RaiderSmol img={img} name="Madikin" class="? Rogue" color="yellow" />
           <RaiderSmol
-            img={img}
+            img={imgtemp}
+            name="Gorbix"
+            class="? Rogue"
+            color="yellow"
+          />
+          <RaiderSmol
+            img={imgtemp}
+            name="Madikin"
+            class="? Rogue"
+            color="yellow"
+          />
+          <RaiderSmol
+            img={imgtemp}
             name="Biigmeech"
             class="? Warrior"
             color="tan"
           />
           <RaiderSmol
-            img={img}
+            img={imgtemp}
             name="Mallorean"
             class="Fury Warrior"
             color="tan"
@@ -74,31 +101,41 @@ const Roster = () => {
             class="Feral Druid"
             color="orange"
           />
-          <RaiderSmol img={img} name="Link" class="? Warrior" color="tan" />
+          <RaiderSmol img={imgtemp} name="Link" class="? Warrior" color="tan" />
           <RaiderSmol
-            img={img}
+            img={imgtemp}
             name="Brarien"
             class="Ret Paladin"
             color="pink"
           />
-          <RaiderSmol img={img} name="Juggnut" class="? Rogue" color="yellow" />
-          <RaiderSmol img={img} name="Vacoon" class="? Warrior" color="tan" />
           <RaiderSmol
-            img={img}
+            img={imgtemp}
+            name="Juggnut"
+            class="? Rogue"
+            color="yellow"
+          />
+          <RaiderSmol
+            img={imgtemp}
+            name="Vacoon"
+            class="? Warrior"
+            color="tan"
+          />
+          <RaiderSmol
+            img={imgtemp}
             name="Boxedkitten"
             class="BM Hunter"
             color="green"
           />
-          <RaiderSmol img={img} name="Mallc" class="? Warlock" />
+          <RaiderSmol img={imgtemp} name="Mallc" class="? Warlock" />
           <RaiderSmol
             img={img4}
             name="OohEhmGee"
             class="Arcane Mage"
             color="teal"
           />
-          <RaiderSmol img={img} name="Tox" class="? Shaman" color="blue" />
+          <RaiderSmol img={imgtemp} name="Tox" class="? Shaman" color="blue" />
           <RaiderSmol
-            img={img}
+            img={imgtemp}
             name="Saltydingus"
             class="? Mage"
             color="teal"
