@@ -285,6 +285,7 @@ export const RaiderContainer = styled.div`
   a {
     text-decoration: none;
     color: snow;
+    transition: color 0.3s ease;
 
     &:hover {
       color: ${props => props.color};
