@@ -31,11 +31,11 @@ export const phobos = {
   logs: 'https://www.warcraftlogs.com/character/us/emerald-dream/serrow',
   armory: 'https://worldofwarcraft.com/en-us/character/emerald-dream/Serrow',
   imgb:
-    'https://render-us.worldofwarcraft.com/character/emerald-dream/36/137298980-main.jpg',
+    'https://render-us.worldofwarcraft.com/character/area-52/197/165762501-main.jpg',
   imgs:
-    'https://render-us.worldofwarcraft.com/character/emerald-dream/36/137298980-avatar.jpg',
+    'https://render-us.worldofwarcraft.com/character/area-52/197/165762501-avatar.jpg',
   imgm:
-    'https://render-us.worldofwarcraft.com/character/emerald-dream/36/137298980-inset.jpg',
+    'https://render-us.worldofwarcraft.com/character/area-52/197/165762501-inset.jpg',
 };
 
 export const obearma = {
@@ -63,11 +63,11 @@ export const deimos = {
   logs: 'https://www.warcraftlogs.com/character/us/emerald-dream/serrow',
   armory: 'https://worldofwarcraft.com/en-us/character/emerald-dream/Serrow',
   imgb:
-    'https://render-us.worldofwarcraft.com/character/emerald-dream/36/137298980-main.jpg',
+    'https://render-us.worldofwarcraft.com/character/area-52/170/165405866-main.jpg',
   imgs:
-    'https://render-us.worldofwarcraft.com/character/emerald-dream/36/137298980-avatar.jpg',
+    'https://render-us.worldofwarcraft.com/character/area-52/170/165405866-avatar.jpg',
   imgm:
-    'https://render-us.worldofwarcraft.com/character/emerald-dream/36/137298980-inset.jpg',
+    'https://render-us.worldofwarcraft.com/character/area-52/170/165405866-inset.jpg',
 };
 
 export const jit = {
@@ -108,11 +108,11 @@ export const hypurz = {
   logs: 'https://www.warcraftlogs.com/character/us/emerald-dream/serrow',
   armory: 'https://worldofwarcraft.com/en-us/character/emerald-dream/Serrow',
   imgb:
-    'https://render-us.worldofwarcraft.com/character/emerald-dream/36/137298980-main.jpg',
+    'https://render-us.worldofwarcraft.com/character/area-52/253/167203325-main.jpg',
   imgs:
-    'https://render-us.worldofwarcraft.com/character/emerald-dream/36/137298980-avatar.jpg',
+    'https://render-us.worldofwarcraft.com/character/area-52/253/167203325-avatar.jpg',
   imgm:
-    'https://render-us.worldofwarcraft.com/character/emerald-dream/36/137298980-inset.jpg',
+    'https://render-us.worldofwarcraft.com/character/area-52/253/167203325-inset.jpg',
 };
 
 export const soothee = {
@@ -123,11 +123,11 @@ export const soothee = {
   logs: 'https://www.warcraftlogs.com/character/us/emerald-dream/serrow',
   armory: 'https://worldofwarcraft.com/en-us/character/emerald-dream/Serrow',
   imgb:
-    'https://render-us.worldofwarcraft.com/character/emerald-dream/36/137298980-main.jpg',
+    'https://render-us.worldofwarcraft.com/character/area-52/155/166757019-main.jpg',
   imgs:
-    'https://render-us.worldofwarcraft.com/character/emerald-dream/36/137298980-avatar.jpg',
+    'https://render-us.worldofwarcraft.com/character/area-52/155/166757019-avatar.jpg',
   imgm:
-    'https://render-us.worldofwarcraft.com/character/emerald-dream/36/137298980-inset.jpg',
+    'https://render-us.worldofwarcraft.com/character/area-52/155/166757019-inset.jpg',
 };
 
 // DPS
@@ -140,11 +140,11 @@ export const yggralith = {
   logs: 'https://www.warcraftlogs.com/character/us/emerald-dream/serrow',
   armory: 'https://worldofwarcraft.com/en-us/character/emerald-dream/Serrow',
   imgb:
-    'https://render-us.worldofwarcraft.com/character/emerald-dream/36/137298980-main.jpg',
+    'https://render-us.worldofwarcraft.com/character/area-52/221/165197021-main.jpg',
   imgs:
-    'https://render-us.worldofwarcraft.com/character/emerald-dream/36/137298980-avatar.jpg',
+    'https://render-us.worldofwarcraft.com/character/area-52/221/165197021-avatar.jpg',
   imgm:
-    'https://render-us.worldofwarcraft.com/character/emerald-dream/36/137298980-inset.jpg',
+    'https://render-us.worldofwarcraft.com/character/area-52/221/165197021-inset.jpg',
 };
 
 export const gorbix = {
@@ -185,11 +185,11 @@ export const biigmeech = {
   logs: 'https://www.warcraftlogs.com/character/us/emerald-dream/serrow',
   armory: 'https://worldofwarcraft.com/en-us/character/emerald-dream/Serrow',
   imgb:
-    'https://render-us.worldofwarcraft.com/character/emerald-dream/36/137298980-main.jpg',
+    'https://render-us.worldofwarcraft.com/character/area-52/93/165626973-main.jpg',
   imgs:
-    'https://render-us.worldofwarcraft.com/character/emerald-dream/36/137298980-avatar.jpg',
+    'https://render-us.worldofwarcraft.com/character/area-52/93/165626973-avatar.jpg',
   imgm:
-    'https://render-us.worldofwarcraft.com/character/emerald-dream/36/137298980-inset.jpg',
+    'https://render-us.worldofwarcraft.com/character/area-52/93/165626973-inset.jpg',
 };
 
 export const mallorean = {
@@ -200,11 +200,11 @@ export const mallorean = {
   logs: 'https://www.warcraftlogs.com/character/us/emerald-dream/serrow',
   armory: 'https://worldofwarcraft.com/en-us/character/emerald-dream/Serrow',
   imgb:
-    'https://render-us.worldofwarcraft.com/character/emerald-dream/36/137298980-main.jpg',
+    'https://render-us.worldofwarcraft.com/character/area-52/68/165247300-main.jpg',
   imgs:
-    'https://render-us.worldofwarcraft.com/character/emerald-dream/36/137298980-avatar.jpg',
+    'https://render-us.worldofwarcraft.com/character/area-52/68/165247300-avatar.jpg',
   imgm:
-    'https://render-us.worldofwarcraft.com/character/emerald-dream/36/137298980-inset.jpg',
+    'https://render-us.worldofwarcraft.com/character/area-52/68/165247300-inset.jpg',
 };
 
 export const serrow = {
@@ -230,11 +230,11 @@ export const warriorbuns = {
   logs: 'https://www.warcraftlogs.com/character/us/emerald-dream/serrow',
   armory: 'https://worldofwarcraft.com/en-us/character/emerald-dream/Serrow',
   imgb:
-    'https://render-us.worldofwarcraft.com/character/emerald-dream/36/137298980-main.jpg',
+    'https://render-us.worldofwarcraft.com/character/area-52/218/164590810-main.jpg',
   imgs:
-    'https://render-us.worldofwarcraft.com/character/emerald-dream/36/137298980-avatar.jpg',
+    'https://render-us.worldofwarcraft.com/character/area-52/218/164590810-avatar.jpg',
   imgm:
-    'https://render-us.worldofwarcraft.com/character/emerald-dream/36/137298980-inset.jpg',
+    'https://render-us.worldofwarcraft.com/character/area-52/218/164590810-inset.jpg',
 };
 
 export const brarien = {
@@ -290,11 +290,11 @@ export const boxedkitten = {
   logs: 'https://www.warcraftlogs.com/character/us/emerald-dream/serrow',
   armory: 'https://worldofwarcraft.com/en-us/character/emerald-dream/Serrow',
   imgb:
-    'https://render-us.worldofwarcraft.com/character/emerald-dream/36/137298980-main.jpg',
+    'https://render-us.worldofwarcraft.com/character/area-52/142/166475662-main.jpg',
   imgs:
-    'https://render-us.worldofwarcraft.com/character/emerald-dream/36/137298980-avatar.jpg',
+    'https://render-us.worldofwarcraft.com/character/area-52/142/166475662-avatar.jpg',
   imgm:
-    'https://render-us.worldofwarcraft.com/character/emerald-dream/36/137298980-inset.jpg',
+    'https://render-us.worldofwarcraft.com/character/area-52/142/166475662-inset.jpg',
 };
 
 export const mallc = {
@@ -320,11 +320,11 @@ export const oohemgee = {
   logs: 'https://www.warcraftlogs.com/character/us/emerald-dream/serrow',
   armory: 'https://worldofwarcraft.com/en-us/character/emerald-dream/Serrow',
   imgb:
-    'https://render-us.worldofwarcraft.com/character/emerald-dream/36/137298980-main.jpg',
+    'https://render-us.worldofwarcraft.com/character/area-52/201/165617097-main.jpg',
   imgs:
-    'https://render-us.worldofwarcraft.com/character/emerald-dream/36/137298980-avatar.jpg',
+    'https://render-us.worldofwarcraft.com/character/area-52/201/165617097-avatar.jpg',
   imgm:
-    'https://render-us.worldofwarcraft.com/character/emerald-dream/36/137298980-inset.jpg',
+    'https://render-us.worldofwarcraft.com/character/area-52/201/165617097-inset.jpg',
 };
 
 export const tox = {
@@ -335,11 +335,11 @@ export const tox = {
   logs: 'https://www.warcraftlogs.com/character/us/emerald-dream/serrow',
   armory: 'https://worldofwarcraft.com/en-us/character/emerald-dream/Serrow',
   imgb:
-    'https://render-us.worldofwarcraft.com/character/emerald-dream/36/137298980-main.jpg',
+    'https://render-us.worldofwarcraft.com/character/area-52/38/165439526-main.jpg',
   imgs:
-    'https://render-us.worldofwarcraft.com/character/emerald-dream/36/137298980-avatar.jpg',
+    'https://render-us.worldofwarcraft.com/character/area-52/38/165439526-avatar.jpg',
   imgm:
-    'https://render-us.worldofwarcraft.com/character/emerald-dream/36/137298980-inset.jpg',
+    'https://render-us.worldofwarcraft.com/character/area-52/38/165439526-inset.jpg',
 };
 
 export const saltydingus = {
