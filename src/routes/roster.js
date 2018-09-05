@@ -46,25 +46,25 @@ const Roster = () => {
         <h1> Tanks </h1>
         <Row width="100%" raidrow>
           <RaiderSmol
-            img={imgtemp}
+            img={mariels.imgs}
             name={mariels.name}
             class={mariels.class}
             color={mariels.color}
-            href=""
+            href="/mariels"
           />
           <RaiderSmol
             img={imgtemp}
             name={phobos.name}
             class={phobos.class}
             color={phobos.color}
-            href=""
+            href="/phobos"
           />
           <RaiderSmol
             img={imgtemp}
             name={obearma.name}
             class={obearma.class}
             color={obearma.color}
-            href=""
+            href="/obearma"
           />
         </Row>
         <h1> Healers </h1>
@@ -74,35 +74,35 @@ const Roster = () => {
             name={deimos.name}
             class={deimos.class}
             color={deimos.color}
-            href=""
+            href="/deimos"
           />
           <RaiderSmol
             img={imgtemp}
             name={jit.name}
             class={jit.class}
             color={jit.color}
-            href=""
+            href="/jit"
           />
           <RaiderSmol
             img={imgtemp}
             name={packinlip.name}
             class={packinlip.class}
             color={packinlip.color}
-            href=""
+            href="/packinlip"
           />
           <RaiderSmol
             img={imgtemp}
             name={hypurz.name}
             class={hypurz.class}
             color={hypurz.color}
-            href=""
+            href="/hypurz"
           />
           <RaiderSmol
             img={imgtemp}
             name={soothee.name}
             class={soothee.class}
             color={soothee.color}
-            href=""
+            href="/soothee"
           />
         </Row>
         <h1> DPS </h1>
@@ -112,35 +112,35 @@ const Roster = () => {
             name={yggralith.name}
             class={yggralith.class}
             color={yggralith.color}
-            href=""
+            href="/yggralith"
           />
           <RaiderSmol
             img={imgtemp}
             name={gorbix.name}
             class={gorbix.class}
             color={gorbix.color}
-            href=""
+            href="/gorbix"
           />
           <RaiderSmol
             img={imgtemp}
             name={madikin.name}
             class={madikin.class}
             color={madikin.color}
-            href=""
+            href="/madikin"
           />
           <RaiderSmol
             img={imgtemp}
             name={biigmeech.name}
             class={biigmeech.class}
             color={biigmeech.color}
-            href=""
+            href="/biigmeech"
           />
           <RaiderSmol
             img={imgtemp}
             name={mallorean.name}
             class={mallorean.class}
             color={mallorean.color}
-            href=""
+            href="/mallorean"
           />
           <RaiderSmol
             img={img}
@@ -154,63 +154,63 @@ const Roster = () => {
             name={warriorbuns.name}
             class={warriorbuns.class}
             color={warriorbuns.color}
-            href=""
+            href="/warriorbuns"
           />
           <RaiderSmol
             img={imgtemp}
             name={brarien.name}
             class={brarien.class}
             color={brarien.color}
-            href=""
+            href="/brarien"
           />
           <RaiderSmol
             img={imgtemp}
             name={juggnut.name}
             class={juggnut.class}
             color={juggnut.color}
-            href=""
+            href="/juggnut"
           />
           <RaiderSmol
             img={imgtemp}
             name={vacoon.name}
             class={vacoon.class}
             color={vacoon.color}
-            href=""
+            href="/vacoon"
           />
           <RaiderSmol
             img={imgtemp}
             name={boxedkitten.name}
             class={boxedkitten.class}
             color={boxedkitten.color}
-            href=""
+            href="/boxedkitten"
           />
           <RaiderSmol
             img={imgtemp}
             name={mallc.name}
             class={mallc.class}
             color={mallc.color}
-            href=""
+            href="/mallc"
           />
           <RaiderSmol
             img={img4}
             name={oohemgee.name}
             class={oohemgee.class}
             color={oohemgee.color}
-            href=""
+            href="/oohemgee"
           />
           <RaiderSmol
             img={img6}
             name={tox.name}
             class={tox.class}
             color={tox.color}
-            href=""
+            href="/tox"
           />
           <RaiderSmol
             img={imgtemp}
             name={saltydingus.name}
             class={saltydingus.class}
             color={saltydingus.color}
-            href=""
+            href="/saltydingus"
           />
         </Row>
         <h1> Support Squad </h1>
@@ -220,7 +220,7 @@ const Roster = () => {
             name={holycarp.name}
             class={holycarp.class}
             color={holycarp.color}
-            href=""
+            href="/holycarp"
             fix="center !important"
           />
         </Row>
