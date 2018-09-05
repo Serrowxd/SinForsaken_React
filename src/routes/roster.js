@@ -106,7 +106,7 @@ const Roster = () => {
           />
         </Row>
         <h1> DPS </h1>
-        <Row width="100%" raidrow wrap="wrap">
+        <Row width="100%" raidrow>
           <RaiderSmol
             img={img3}
             name={yggralith.name}
@@ -174,7 +174,7 @@ const Roster = () => {
             img={imgtemp}
             name={vacoon.name}
             class={vacoon.class}
-            color={{ vacoon }.color}
+            color={vacoon.color}
             href=""
           />
           <RaiderSmol

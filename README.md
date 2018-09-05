@@ -21,3 +21,7 @@ https://whatpixel.com/bakery-web-design-inspiration/
 - Set color constants in `theme.js` for each class, deconstruct, then call them in props.
 
 - Raider Profiles should map information for each raider to the defined props. Possibly by using a map from state, then storing the information for each raider in state?
+
+## Good Info
+
+- Multiple Exports || https://stackoverflow.com/questions/46039976/exporting-multiple-modules-in-react-js

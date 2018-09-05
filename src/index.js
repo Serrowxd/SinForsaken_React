@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom';
 import Landing from './Landing';
 import { Container } from './styles/theme';
 import { Roster, Guides, OwO, JoinUs } from './reducer';
-import { Serrow } from './routes/raiders';
+import serrow, { Serrow, Mariels } from './routes/raiders/serrow';
 import registerServiceWorker from './registerServiceWorker';
 import { BrowserRouter as Router, Route } from 'react-router-dom';
 
