@@ -28,10 +28,6 @@ import {
   holycarp,
 } from '../../Raiders';
 
-import serrowimg from '../../assets/serrow.jpg';
-import marielsimg from '../../assets/mariels.jpg';
-import img from '../../assets/sincrop.png';
-
 export const Serrow = props => {
   return (
     <RaiderConst
