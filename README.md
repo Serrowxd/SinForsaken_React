@@ -25,3 +25,10 @@ https://whatpixel.com/bakery-web-design-inspiration/
 ## Good Info
 
 - Multiple Exports || https://stackoverflow.com/questions/46039976/exporting-multiple-modules-in-react-js
+
+## Ideas
+
+- Personal Profiles:
+  - Noteable Alts?
+  - Current Progression [maybe api call]
+  - Current ilvl [maybe api call]
