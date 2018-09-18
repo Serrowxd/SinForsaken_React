@@ -22,6 +22,8 @@ https://whatpixel.com/bakery-web-design-inspiration/
 
 - Raider Profiles should map information for each raider to the defined props. Possibly by using a map from state, then storing the information for each raider in state?
 
+- Raider images will break based on length of the name - there should be a set width to the name container so it doesn't automatically break.
+
 ## Good Info
 
 - Multiple Exports || https://stackoverflow.com/questions/46039976/exporting-multiple-modules-in-react-js
