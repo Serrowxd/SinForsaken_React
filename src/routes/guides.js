@@ -6,11 +6,9 @@ const Guides = () => {
   return (
     <Fragment>
       <Navigation />
-      <PaddingContainer>
-        <Body>
-          <h1> Guides! </h1>
-        </Body>
-      </PaddingContainer>
+      <Body worky>
+        <h1> This page is under maintenance! </h1>
+      </Body>
     </Fragment>
   );
 };

@@ -70,7 +70,7 @@ class Landing extends Component {
             </Column>
           </Row>
         </Body>
-        <Body justify="center" light>
+        {/* <Body justify="center" light>
           <Row padded>
             <Column joinup>
               <h1> QwQ </h1>
@@ -81,7 +81,7 @@ class Landing extends Component {
               <button onClick={this.ohMy}> C-Click me Senpai UwU </button>
             </Column>
           </Row>
-        </Body>
+        </Body> */}
         <Body justify="center" foot>
           <Footer />
         </Body>

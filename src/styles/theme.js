@@ -256,6 +256,14 @@ export const Body = styled.div`
       padding-top: 0;
       padding-bottom: 0;
     `};
+
+  ${props =>
+    props.worky &&
+    css`
+      justify-content: center;
+      flex-direction: column;
+      text-align: center;
+    `};
 `;
 
 export const RaiderContainer = styled.div`

@@ -6,8 +6,8 @@ const OwO = () => {
   return (
     <Fragment>
       <Navigation />
-      <Body>
-        <h1> OwO! </h1>
+      <Body worky>
+        <h1> This page is under maintenance! </h1>
       </Body>
     </Fragment>
   );

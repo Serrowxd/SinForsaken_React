@@ -74,3 +74,4 @@ registerServiceWorker();
 // We can run all our exports through one file
 // We cannot dynamically create routes for each raider without creating a route..
 // For each raider..
+// Map the routes to be made by raiders

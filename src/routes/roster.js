@@ -1,5 +1,5 @@
 import React, { Fragment } from 'react';
-import { PaddingContainer, Row } from '../styles/theme';
+import { PaddingContainer, Row, Body } from '../styles/theme';
 import { Navigation, Footer, RaiderSmol } from '../reducer';
 
 import {
@@ -42,6 +42,9 @@ const Roster = () => {
   return (
     <Fragment>
       <Navigation />
+      <Body worky>
+        <h1> This page is under maintenance! </h1>
+      </Body>
       <PaddingContainer raider>
         <h1> Tanks </h1>
         <Row width="100%" raidrow>
