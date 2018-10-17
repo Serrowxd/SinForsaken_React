@@ -59,13 +59,12 @@ class Landing extends Component {
             <Column whois>
               <h1>Area52 - Horde</h1>
               <p>
-                <strong>SinForsaken</strong> What can you expect? We’re a casual
-                bunch of gamers who enjoy dank memes, a laidback raid
-                environment, and talking about end-game content. Elitist
-                attitudes need not apply. We have multiple competitive Mythic +
-                groups that run throughout the week, pvp and arena gurus, and
-                PvP island expedition teams. If you’re a more casual player, we
-                have a place for you too!
+                What can you expect? We’re a casual bunch of gamers who enjoy
+                dank memes, a laidback raid environment, and talking about
+                end-game content. Elitist attitudes need not apply. We have
+                multiple competitive Mythic+ groups that run throughout the
+                week, pvp and arena gurus, and PvP island expedition teams. If
+                you’re a more casual player, we have a place for you too!
               </p>
             </Column>
           </Row>

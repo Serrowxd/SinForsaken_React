@@ -104,7 +104,7 @@ export const Column = styled.div`
   ${props =>
     props.whois &&
     css`
-      width: 50%;
+      width: 15rem;
 
       h1 {
         text-align: center;
@@ -234,6 +234,7 @@ export const Row = styled.div`
     css`
       justify-content: space-evenly;
       flex-wrap: wrap;
+      width: 100%;
     `};
 `;
 
@@ -271,7 +272,7 @@ export const RaiderContainer = styled.div`
   flex-direction: row;
   width: 100%;
   background-color: #303030;
-  justify-content: space-evenly;
+  justify-content: space-around;
   position: relative;
   overflow: hidden;
   margin-top: 2rem;
@@ -323,6 +324,7 @@ export const UnstyledColumn = styled.div`
   justify-content: center;
 
   h2 {
+    font-size: 2.5rem;
     margin: 0;
   }
 `;
