@@ -24,6 +24,8 @@ https://whatpixel.com/bakery-web-design-inspiration/
 
 - Raider images will break based on length of the name - there should be a set width to the name container so it doesn't automatically break.
 
+- Page has absolutely zero reactivity, on laptop it breaks the entire main page and everything falls apart. Will need to revamp everything to be much more friendly.
+
 ## Good Info
 
 - Multiple Exports || https://stackoverflow.com/questions/46039976/exporting-multiple-modules-in-react-js

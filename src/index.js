@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom';
 import Landing from './Landing';
 import { Container } from './styles/theme';
 import { Roster, Guides, OwO, JoinUs } from './reducer';
-import raiderexp, {
+import {
   Serrow,
   Mariels,
   Phobos,
@@ -56,6 +56,7 @@ ReactDOM.render(
       <Route path="/biigmeech" component={Biigmeech} />
       <Route path="/mallorean" component={Mallorean} />
       <Route path="/warriorbuns" component={Warriorbuns} />
+      <Route path="/madikin" component={Madikin} />
       <Route path="/brarien" component={Brarien} />
       <Route path="/juggnut" component={Juggnut} />
       <Route path="/vacoon" component={Vacoon} />
